@@ -110,6 +110,6 @@ Przygotowane projekty interfejsu użytkownika są tutaj po to, żebyś bez probl
 Jednakże zachęcamy do wykonania czegoś, co ukaże Twoje wnętrze :) 
 Dobrej zabawy!
 
-**Opis Projektu** 
+#Opis Projektu
 
 Przykładowe portfolio.
