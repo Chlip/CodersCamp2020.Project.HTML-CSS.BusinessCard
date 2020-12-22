@@ -1,0 +1,187 @@
+#contacts{
+    color: whitesmoke;
+    background: black;
+    margin: 0;
+    padding: 2%;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: underline;
+}
+.contentsContact{
+    background-color: rgba(255,255,255,0.7);
+}
+.canvas{
+    background-color: #fff;
+    width: 80%;
+    border-radius: 40px;
+    margin: 0 auto;
+    margin-top: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.hnews{
+    text-align: center;
+    text-decoration: underline;
+}
+.pnews{
+    text-align: justify;
+    margin: 0 5%;
+}
+.newsletter{
+    background-color: #000000;
+    font-family: 'JetBrains Mono', monospace;
+	color: whitesmoke;
+    
+    box-sizing: border-box;
+    border-radius: 0px 40px 40px 0px;
+    
+    padding: 16px;
+    width: 50%;
+}
+.inputNews{
+    width: 80%;
+    border-radius: 40px;
+    padding: 10px;
+    margin: 15px auto;
+}
+.formaNews{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.checkNews{
+    margin: 5%;
+}
+
+.subscribe{
+    box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 60%;
+    padding: 3%;
+    margin: auto;
+	background: #292929;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 50px;
+    animation: idk 1s infinite alternate;
+}
+
+@keyframes idk{
+    from {background-color: #292929;}
+    to {background-color: #535353;}
+    
+}
+/* form */
+.forma{
+	font-family: 'JetBrains Mono', monospace;
+	
+    /* margin: 10px auto; */
+    box-sizing: border-box;
+    border-radius: 40px 0px 0px 40px;
+    padding: 16px 40px;
+    width: 50%;
+	background: #fff;
+}
+.forma h1{
+	background: #272727;
+	padding: 20px 0;
+	font-size: 140%;
+	font-weight: 300;
+    text-align: center;
+    border-radius: 50px;
+	color: #fff;
+	
+}
+.forma input[type="text"],
+.forma input[type="date"],
+.forma input[type="datetime"],
+.forma input[type="email"],
+.forma input[type="number"],
+.forma input[type="search"],
+.forma input[type="time"],
+.forma input[type="url"],
+.forma textarea,
+.forma select 
+{
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	background: #fff;
+    margin-bottom: 4%;
+    border-radius: 40px;
+	border: 1px solid #ccc;
+	padding: 3%;
+	color: #555;
+	
+}
+.forma input[type="text"]:focus,
+.forma input[type="date"]:focus,
+.forma input[type="datetime"]:focus,
+.forma input[type="email"]:focus,
+.forma input[type="number"]:focus,
+.forma input[type="search"]:focus,
+.forma input[type="time"]:focus,
+.forma input[type="url"]:focus,
+.forma textarea:focus,
+.forma select:focus
+{
+	box-shadow: 0 0 5px #313131;
+	padding: 3%;
+	border: 1px solid #2c2c2c;
+}
+
+.forma input[type="submit"],
+.forma input[type="button"]{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	padding: 3%;
+	background: #292929;
+	
+
+    color: #fff;
+    
+    outline: none;
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 50px;
+}
+.forma input[type="submit"]:hover,
+.forma input[type="button"]:hover{
+    background: #7e7d7d;
+    
+}
+
+@media (max-width: 768px){
+    
+    .forma{
+        width: 100%;
+        border-radius: 40px 40px 0px 0px;
+    }
+    .newsletter{
+        width: 100%;
+        border-radius: 0px 0px 40px 40px;
+    }
+    
+}
+/* footer */
+.footerS{
+    background-color: #000000;
+    margin: 0;
+    text-align: center;
+    color: whitesmoke;
+    padding: 2%;
+    box-sizing: border-box;
+}
